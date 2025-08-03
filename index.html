@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPS Rank - National Parks Voting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>nps rank</h1>
+        </header>
+
+        <main>
+            <section class="voting-section">
+                <h2>Which park would you rather visit?</h2>
+                
+                <div class="matchup">
+                    <div class="park-card" id="park1">
+                        <div class="park-icon">🏔️</div>
+                        <h3 class="park-name">Loading...</h3>
+                        <div class="park-details">
+                            <span class="trending">Trending</span>
+                            <span class="rank">rank #--</span>
+                        </div>
+                        <p class="park-description">Loading park information...</p>
+                    </div>
+
+                    <div class="vs-circle">
+                        <span>VS</span>
+                    </div>
+
+                    <div class="park-card" id="park2">
+                        <div class="park-icon">🏜️</div>
+                        <h3 class="park-name">Loading...</h3>
+                        <div class="park-details">
+                            <span class="trending">Trending</span>
+                            <span class="rank">rank #--</span>
+                        </div>
+                        <p class="park-description">Loading park information...</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="content-grid">
+                <section class="rankings-section">
+                    <h2>rankings</h2>
+                    <div class="rankings-table">
+                        <div class="table-header">
+                            <span>Rank</span>
+                            <span>Park</span>
+                            <span>Score</span>
+                            <span>Change</span>
+                        </div>
+                        <div id="rankings-list">
+                            <!-- Rankings will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </section>
+
+                <section class="recent-votes-section">
+                    <h2>recent votes</h2>
+                    <div id="recent-votes">
+                        <!-- Recent votes will be populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
