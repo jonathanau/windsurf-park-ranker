@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Acadia",
+    "state": "Maine44\u00b021\u2032N 68\u00b013\u2032W\ufeff / \ufeff44.35\u00b0N 68.21\u00b0W\ufeff / 44.35; -68.21\ufeff (Acadia)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bass_Harbor_Lighthouse_b.jpg/250px-Bass_Harbor_Lighthouse_b.jpg",
+    "description": "Covering most of Mount Desert Island and other coastal islands, Acadia features the tallest mountain on the Atlantic coast of the United States, granite peaks, ocean shoreline, woodlands, and lakes. T..."
+  },
+  {
+    "name": "American Samoa",
+    "state": "American Samoa14\u00b015\u2032S 170\u00b041\u2032W\ufeff / \ufeff14.25\u00b0S 170.68\u00b0W\ufeff / -14.25; -170.68\ufeff (National Park of American Samoa)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ofu_Beach_American_Samoa_US_National_Park_Service.jpg/250px-Ofu_Beach_American_Samoa_US_National_Park_Service.jpg",
+    "description": "The southernmost national park is on three Samoan islands in the South Pacific. It protects coral reefs, rainforests, volcanic mountains, and white beaches. The area is also home to flying foxes, brow..."
+  },
+  {
+    "name": "Arches",
+    "state": "Utah38\u00b041\u2032N 109\u00b034\u2032W\ufeff / \ufeff38.68\u00b0N 109.57\u00b0W\ufeff / 38.68; -109.57\ufeff (Arches)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Delicate_Arch_sunset.jpg/250px-Delicate_Arch_sunset.jpg",
+    "description": "This site features more than 2,000 natural sandstone arches, with some of the most popular arches in the park being Delicate Arch, Landscape Arch and Double Arch. Millions of years of erosion have cre..."
+  },
+  {
+    "name": "Badlands",
+    "state": "South Dakota43\u00b045\u2032N 102\u00b030\u2032W\ufeff / \ufeff43.75\u00b0N 102.50\u00b0W\ufeff / 43.75; -102.50\ufeff (Badlands)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/MK00609_Badlands.jpg/250px-MK00609_Badlands.jpg",
+    "description": "The Badlands are a collection of buttes, pinnacles, spires, and mixed-grass prairies within the drainage basin of the White River, in southwestern South Dakota. They contain the largest known assembla..."
+  },
+  {
+    "name": "Big Bend",
+    "state": "Texas29\u00b015\u2032N 103\u00b015\u2032W\ufeff / \ufeff29.25\u00b0N 103.25\u00b0W\ufeff / 29.25; -103.25\ufeff (Big Bend)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/On_the_Border_%2839960085292%29.jpg/250px-On_the_Border_%2839960085292%29.jpg",
+    "description": "Named for the prominent bend in the Rio Grande along the U.S.\u2013Mexico border, this park encompasses a large and remote part of the Chihuahuan Desert. Its main attraction is backcountry recreation in th..."
+  },
+  {
+    "name": "Biscayne",
+    "state": "Florida25\u00b039\u2032N 80\u00b005\u2032W\ufeff / \ufeff25.65\u00b0N 80.08\u00b0W\ufeff / 25.65; -80.08\ufeff (Biscayne)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Biscayne_underwater_NPS1.jpg/250px-Biscayne_underwater_NPS1.jpg",
+    "description": "The central part of Biscayne Bay, this mostly underwater park at the north end of the Florida Keys has four interrelated marine ecosystems: mangrove forest, the Bay, the Keys, and coral reefs. Threate..."
+  },
+  {
+    "name": "Black Canyon of the Gunnison",
+    "state": "Colorado38\u00b034\u2032N 107\u00b043\u2032W\ufeff / \ufeff38.57\u00b0N 107.72\u00b0W\ufeff / 38.57; -107.72\ufeff (Black Canyon of the Gunnison)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Black_canyon_gunnison_Colorado.jpg/250px-Black_canyon_gunnison_Colorado.jpg",
+    "description": "The park protects a quarter of the Gunnison River, which slices sheer canyon walls from dark Precambrian-era rock. The canyon features some of the steepest cliffs and oldest rock in North America, and..."
+  },
+  {
+    "name": "Bryce Canyon",
+    "state": "Utah37\u00b034\u2032N 112\u00b011\u2032W\ufeff / \ufeff37.57\u00b0N 112.18\u00b0W\ufeff / 37.57; -112.18\ufeff (Bryce Canyon)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg/250px-Inspiration_Point_Bryce_Canyon_November_2018_panorama.jpg",
+    "description": "Bryce Canyon is a geological amphitheater on southern Utah's Paunsaugunt Plateau with hundreds of tall, multicolored sandstone hoodoos formed by erosion. The region was originally settled by Native Am..."
+  },
+  {
+    "name": "Canyonlands",
+    "state": "Utah38\u00b012\u2032N 109\u00b056\u2032W\ufeff / \ufeff38.2\u00b0N 109.93\u00b0W\ufeff / 38.2; -109.93\ufeff (Canyonlands)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ekker_Butte_from_Green_River_Overlook.jpg/250px-Ekker_Butte_from_Green_River_Overlook.jpg",
+    "description": "This landscape was eroded into a maze of canyons, buttes, and mesas by the combined efforts of the Colorado River, Green River, and their tributaries, which divide the park into three districts. The p..."
+  },
+  {
+    "name": "Capitol Reef",
+    "state": "Utah38\u00b012\u2032N 111\u00b010\u2032W\ufeff / \ufeff38.20\u00b0N 111.17\u00b0W\ufeff / 38.20; -111.17\ufeff (Capitol Reef)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Capitol_Reef_National_Park.jpg/250px-Capitol_Reef_National_Park.jpg",
+    "description": "The park's Waterpocket Fold is a 100-mile (160 km) monocline that exhibits the earth's diverse geologic layers. Other natural features include monoliths, eroded buttes, and sandstone domes, including ..."
+  },
+  {
+    "name": "Carlsbad Caverns",
+    "state": "New Mexico32\u00b010\u2032N 104\u00b026\u2032W\ufeff / \ufeff32.17\u00b0N 104.44\u00b0W\ufeff / 32.17; -104.44\ufeff (Carlsbad Caverns)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Carlsbad_Interior_Formations.jpg/250px-Carlsbad_Interior_Formations.jpg",
+    "description": "Carlsbad Caverns has 117 caves, the longest of which is over 120 miles (190 km) long. The Big Room is almost 4,000 feet (1,200 m) long, and the caves are home to over 400,000 Mexican free-tailed bats ..."
+  },
+  {
+    "name": "Channel Islands",
+    "state": "California34\u00b001\u2032N 119\u00b025\u2032W\ufeff / \ufeff34.01\u00b0N 119.42\u00b0W\ufeff / 34.01; -119.42\ufeff (Channel Islands)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Santa_Cruz_Island_CA_DSC_4323_ad.JPG/250px-Santa_Cruz_Island_CA_DSC_4323_ad.JPG",
+    "description": "Five of the eight Channel Islands are protected, with half of the park's area underwater. The islands have a unique Mediterranean ecosystem originally settled by the Chumash people. They are home to o..."
+  },
+  {
+    "name": "Congaree",
+    "state": "South Carolina33\u00b047\u2032N 80\u00b047\u2032W\ufeff / \ufeff33.78\u00b0N 80.78\u00b0W\ufeff / 33.78; -80.78\ufeff (Congaree)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Baldcypress_%28Taxodium_distichum%29_on_Congaree_National_Park_Low_Boardwalk_trail.jpg/250px-Baldcypress_%28Taxodium_distichum%29_on_Congaree_National_Park_Low_Boardwalk_trail.jpg",
+    "description": "On the Congaree River, this park is the largest portion of old-growth floodplain forest left in North America. Some of the trees are the tallest in the eastern United States. An elevated walkway calle..."
+  },
+  {
+    "name": "Crater Lake",
+    "state": "Oregon42\u00b056\u2032N 122\u00b006\u2032W\ufeff / \ufeff42.94\u00b0N 122.1\u00b0W\ufeff / 42.94; -122.1\ufeff (Crater Lake)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Aerial_Crater_Lake_%28cropped%29.jpg/250px-Aerial_Crater_Lake_%28cropped%29.jpg",
+    "description": "Crater Lake lies in the caldera of an ancient volcano called Mount Mazama that collapsed 7,700 years ago. The lake is the deepest in the United States and is noted for its vivid blue color and water c..."
+  },
+  {
+    "name": "Cuyahoga Valley",
+    "state": "Ohio41\u00b014\u2032N 81\u00b033\u2032W\ufeff / \ufeff41.24\u00b0N 81.55\u00b0W\ufeff / 41.24; -81.55\ufeff (Cuyahoga Valley)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Cuyahoga_Valley_National_Park_20.jpg/250px-Cuyahoga_Valley_National_Park_20.jpg",
+    "description": "This park along the Cuyahoga River has waterfalls, hills, trails, and exhibits on early rural living. The Ohio and Erie Canal Towpath Trail follows the Ohio and Erie Canal, where mules towed canal boa..."
+  },
+  {
+    "name": "Death Valley",
+    "state": "California, Nevada36\u00b014\u2032N 116\u00b049\u2032W\ufeff / \ufeff36.24\u00b0N 116.82\u00b0W\ufeff / 36.24; -116.82\ufeff (Death Valley)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Isolated_Desert.jpg/250px-Isolated_Desert.jpg",
+    "description": "Death Valley is the hottest, lowest, and driest place in the United States, with daytime temperatures that have exceeded 130 \u00b0F (54 \u00b0C). The park protects Badwater Basin and its vast salt flats at the..."
+  },
+  {
+    "name": "Denali",
+    "state": "Alaska63\u00b020\u2032N 150\u00b030\u2032W\ufeff / \ufeff63.33\u00b0N 150.50\u00b0W\ufeff / 63.33; -150.50\ufeff (Denali)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/250px-Wonder_Lake_and_Denali.jpg",
+    "description": "Centered on Denali, the tallest and most prominent mountain in North America, the park is serviced by a single road leading to Wonder Lake, most of which can only be accessed via scheduled tour buses...."
+  },
+  {
+    "name": "Dry Tortugas",
+    "state": "Florida24\u00b038\u2032N 82\u00b052\u2032W\ufeff / \ufeff24.63\u00b0N 82.87\u00b0W\ufeff / 24.63; -82.87\ufeff (Dry Tortugas)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Fort-Jefferson_Dry-Tortugas.jpg/250px-Fort-Jefferson_Dry-Tortugas.jpg",
+    "description": "The islands of the Dry Tortugas, at the westernmost end of the Florida Keys, are the site of Fort Jefferson, a Civil War-era fort that is the largest masonry structure in the Americas. The park is hom..."
+  },
+  {
+    "name": "Everglades",
+    "state": "Florida25\u00b019\u2032N 80\u00b056\u2032W\ufeff / \ufeff25.32\u00b0N 80.93\u00b0W\ufeff / 25.32; -80.93\ufeff (Everglades)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Sunset_over_the_River_of_Grass%2C_NPSphoto%2C_G.Gardner_%289255157507%29.jpg/250px-Sunset_over_the_River_of_Grass%2C_NPSphoto%2C_G.Gardner_%289255157507%29.jpg",
+    "description": "The Everglades are the largest tropical wilderness in the United States. This mangrove and tropical rainforest ecosystem and marine estuary is home to 36 protected species, including the Florida panth..."
+  },
+  {
+    "name": "Gates of the Arctic",
+    "state": "Alaska67\u00b047\u2032N 153\u00b018\u2032W\ufeff / \ufeff67.78\u00b0N 153.30\u00b0W\ufeff / 67.78; -153.30\ufeff (Gates of the Arctic)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Remote_river_in_Gates_of_the_Arctic_%2816524035298%29.jpg/250px-Remote_river_in_Gates_of_the_Arctic_%2816524035298%29.jpg",
+    "description": "The country's northernmost park protects an expanse of pure wilderness in Alaska's Brooks Range and has no park facilities. The land is home to Alaska Natives who have relied on the land and caribou f..."
+  },
+  {
+    "name": "Gateway Arch",
+    "state": "Missouri38\u00b038\u2032N 90\u00b011\u2032W\ufeff / \ufeff38.63\u00b0N 90.19\u00b0W\ufeff / 38.63; -90.19\ufeff (Gateway Arch)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/St_Louis_night_expblend.jpg/250px-St_Louis_night_expblend.jpg",
+    "description": "The Gateway Arch is a 630-foot (192 m) (both high and wide) catenary arch built in the 1960s to commemorate the Lewis and Clark Expedition, initiated by Thomas Jefferson, and the subsequent westward e..."
+  },
+  {
+    "name": "Glacier",
+    "state": "Montana48\u00b048\u2032N 114\u00b000\u2032W\ufeff / \ufeff48.80\u00b0N 114.00\u00b0W\ufeff / 48.80; -114.00\ufeff (Glacier)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mountain_Goat_at_Hidden_Lake.jpg/250px-Mountain_Goat_at_Hidden_Lake.jpg",
+    "description": "The U.S. half of Waterton-Glacier International Peace Park, this park includes 26 rapidly receding glaciers and 130 named lakes surrounded by Rocky Mountain peaks. Historic hotels and the landmark Goi..."
+  },
+  {
+    "name": "Glacier Bay",
+    "state": "Alaska58\u00b030\u2032N 137\u00b000\u2032W\ufeff / \ufeff58.50\u00b0N 137.00\u00b0W\ufeff / 58.50; -137.00\ufeff (Glacier Bay)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Glacier_Bay_National_Park%2C_July_28%2C_2012.jpg/250px-Glacier_Bay_National_Park%2C_July_28%2C_2012.jpg",
+    "description": "Glacier Bay contains tidewater glaciers, mountains, fjords, and a temperate rainforest, and is home to large populations of grizzly bears, mountain goats, whales, seals, and eagles. When discovered in..."
+  },
+  {
+    "name": "Grand Canyon",
+    "state": "Arizona36\u00b004\u2032N 112\u00b008\u2032W\ufeff / \ufeff36.06\u00b0N 112.14\u00b0W\ufeff / 36.06; -112.14\ufeff (Grand Canyon)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg/250px-Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+    "description": "The Grand Canyon, carved by the mighty Colorado River, is 277 miles (446 km) long, up to 1 mile (1.6 km) deep, and up to 15 miles (24 km) wide. Millions of years of erosion have resulted in a massive ..."
+  },
+  {
+    "name": "Grand Teton",
+    "state": "Wyoming43\u00b044\u2032N 110\u00b048\u2032W\ufeff / \ufeff43.73\u00b0N 110.80\u00b0W\ufeff / 43.73; -110.80\ufeff (Grand Teton)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Barns_grand_tetons.jpg/250px-Barns_grand_tetons.jpg",
+    "description": "Grand Teton is the tallest mountain in the scenic Teton Range. The park's historic Jackson Hole and reflective piedmont lakes teem with endemic wildlife, with a backdrop of craggy mountains that rise ..."
+  },
+  {
+    "name": "Great Basin",
+    "state": "Nevada38\u00b059\u2032N 114\u00b018\u2032W\ufeff / \ufeff38.98\u00b0N 114.30\u00b0W\ufeff / 38.98; -114.30\ufeff (Great Basin)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Upper_Lehman_Creek.jpg/250px-Upper_Lehman_Creek.jpg",
+    "description": "Based around Nevada's second tallest mountain, Wheeler Peak, Great Basin National Park protects 5,000-year-old bristlecone pines, a rock glacier, and the limestone Lehman Caves. Due to its remote loca..."
+  },
+  {
+    "name": "Great Sand Dunes",
+    "state": "Colorado37\u00b044\u2032N 105\u00b031\u2032W\ufeff / \ufeff37.73\u00b0N 105.51\u00b0W\ufeff / 37.73; -105.51\ufeff (Great Sand Dunes)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Sun_and_Shadow_Patterns_on_Dunes_%2828471118064%29.jpg/250px-Sun_and_Shadow_Patterns_on_Dunes_%2828471118064%29.jpg",
+    "description": "The tallest sand dunes in North America, up to 750 feet (230 m) tall, were formed by deposits of the ancient Rio Grande in the San Luis Valley. Abutting a variety of grasslands, shrublands, and wetlan..."
+  },
+  {
+    "name": "Great Smoky Mountains",
+    "state": "North Carolina, Tennessee35\u00b041\u2032N 83\u00b032\u2032W\ufeff / \ufeff35.68\u00b0N 83.53\u00b0W\ufeff / 35.68; -83.53\ufeff (Great Smoky Mountains)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Foothills_Parkway%2C_November_2018--Joye_Ardyn_Durham_%2831031302587%29.jpg/250px-Foothills_Parkway%2C_November_2018--Joye_Ardyn_Durham_%2831031302587%29.jpg",
+    "description": "The Great Smoky Mountains, part of the Appalachian Mountains, span a wide range of elevations, making them home to over 400 vertebrate species, 100 tree species, and 5,000 plant species. Hiking is the..."
+  },
+  {
+    "name": "Guadalupe Mountains",
+    "state": "Texas31\u00b055\u2032N 104\u00b052\u2032W\ufeff / \ufeff31.92\u00b0N 104.87\u00b0W\ufeff / 31.92; -104.87\ufeff (Guadalupe Mountains)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Guadalupe_Peak_from_Hunter_Peak.jpg/250px-Guadalupe_Peak_from_Hunter_Peak.jpg",
+    "description": "This park contains Guadalupe Peak, the highest point in Texas, as well as the scenic McKittrick Canyon filled with bigtooth maples, a corner of the arid Chihuahuan Desert, and a fossilized coral reef ..."
+  },
+  {
+    "name": "Haleakal\u0101",
+    "state": "Hawaii20\u00b043\u2032N 156\u00b010\u2032W\ufeff / \ufeff20.72\u00b0N 156.17\u00b0W\ufeff / 20.72; -156.17\ufeff (Haleakal\u0101)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Haleakala_National_Park_02.jpg/250px-Haleakala_National_Park_02.jpg",
+    "description": "The Haleakal\u0101 volcano on Maui features a very large crater with numerous cinder cones, a grove of non-native trees, the Kipahulu section's scenic pools of freshwater fish, and the endemic Hawaiian goo..."
+  },
+  {
+    "name": "Hawai\u02bbi Volcanoes",
+    "state": "Hawaii19\u00b023\u2032N 155\u00b012\u2032W\ufeff / \ufeff19.38\u00b0N 155.20\u00b0W\ufeff / 19.38; -155.20\ufeff (Hawai\u02bbi Volcanoes)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sulfur_dioxide_emissions_from_the_Halemaumau_vent_04-08-1_1.jpg/250px-Sulfur_dioxide_emissions_from_the_Halemaumau_vent_04-08-1_1.jpg",
+    "description": "This park on the Big Island protects the K\u012blauea and Mauna Loa volcanoes, two of the world's most active geological features. Diverse ecosystems range from tropical forests at sea level to barren lava..."
+  },
+  {
+    "name": "Hot Springs",
+    "state": "Arkansas34\u00b031\u2032N 93\u00b003\u2032W\ufeff / \ufeff34.51\u00b0N 93.05\u00b0W\ufeff / 34.51; -93.05\ufeff (Hot Springs)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Steamy_Entrance_Springs_on_Cold_Night_in_Hot_Springs_National_Park.jpg/250px-Steamy_Entrance_Springs_on_Cold_Night_in_Hot_Springs_National_Park.jpg",
+    "description": "Hot Springs was originally established by Congress as a federal reserve on April 20, 1832, making it the oldest area managed by the National Park Service. Natural thermal springs flow out of the Ouach..."
+  },
+  {
+    "name": "Indiana Dunes",
+    "state": "Indiana41\u00b039\u203212\u2033N 87\u00b003\u203209\u2033W\ufeff / \ufeff41.6533\u00b0N 87.0524\u00b0W\ufeff / 41.6533; -87.0524\ufeff (Indiana Dunes)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2010-11-26_3060x2040_portage_indiana_dunes.jpg/250px-2010-11-26_3060x2040_portage_indiana_dunes.jpg",
+    "description": "Previously designated a national lakeshore, parts of this 20-mile (32 km) stretch of the southern shore of Lake Michigan have sandy beaches and tall dunes. The park includes grassy prairies, peat bogs..."
+  },
+  {
+    "name": "Isle Royale",
+    "state": "Michigan48\u00b006\u2032N 88\u00b033\u2032W\ufeff / \ufeff48.10\u00b0N 88.55\u00b0W\ufeff / 48.10; -88.55\ufeff (Isle Royale)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/IsleRoyalePlane.jpg/250px-IsleRoyalePlane.jpg",
+    "description": "The largest island in Lake Superior is a place of isolation and wilderness. Along with its many shipwrecks, waterways, and hiking trails, the park also includes over 400 smaller islands within 4.5 mil..."
+  },
+  {
+    "name": "Joshua Tree",
+    "state": "California33\u00b047\u2032N 115\u00b054\u2032W\ufeff / \ufeff33.79\u00b0N 115.90\u00b0W\ufeff / 33.79; -115.90\ufeff (Joshua Tree)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Joshua_Tree_-_Rock_formation_in_Real_Hidden_Valley_1.jpg/250px-Joshua_Tree_-_Rock_formation_in_Real_Hidden_Valley_1.jpg",
+    "description": "Covering large areas of the Colorado and Mojave Deserts and the Little San Bernardino Mountains, this desert landscape is populated by vast stands of Joshua trees. Large changes in elevation reveal va..."
+  },
+  {
+    "name": "Katmai",
+    "state": "Alaska58\u00b030\u2032N 155\u00b000\u2032W\ufeff / \ufeff58.50\u00b0N 155.00\u00b0W\ufeff / 58.50; -155.00\ufeff (Katmai)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Grizzly_mama_bear_with_spring_cubs._Naknek_Lake%2C_Katmai_National_Park%2C_Alaska.jpg/250px-Grizzly_mama_bear_with_spring_cubs._Naknek_Lake%2C_Katmai_National_Park%2C_Alaska.jpg",
+    "description": "This park on the Alaska Peninsula protects the Valley of Ten Thousand Smokes, an ash flow formed by the 1912 eruption of Novarupta, and the stratovolcano Mount Katmai. Over 2,000 grizzly bears come he..."
+  },
+  {
+    "name": "Kenai Fjords",
+    "state": "Alaska59\u00b055\u2032N 149\u00b039\u2032W\ufeff / \ufeff59.92\u00b0N 149.65\u00b0W\ufeff / 59.92; -149.65\ufeff (Kenai Fjords)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/KENAI_FJORDS_NATIONAL_PARK%2C_ALASKA_--_NORTHWEST_GLACIER.jpg/250px-KENAI_FJORDS_NATIONAL_PARK%2C_ALASKA_--_NORTHWEST_GLACIER.jpg",
+    "description": "Near Seward on the Kenai Peninsula, this park protects the Harding Icefield and at least 38 glaciers and fjords stemming from it. The only area accessible to the public by road is the rapidly shrinkin..."
+  },
+  {
+    "name": "Kings Canyon",
+    "state": "California36\u00b048\u2032N 118\u00b033\u2032W\ufeff / \ufeff36.80\u00b0N 118.55\u00b0W\ufeff / 36.80; -118.55\ufeff (Kings Canyon)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/KingsCanyonNP.JPG/250px-KingsCanyonNP.JPG",
+    "description": "Home to several giant sequoia groves and the General Grant Tree, the world's second largest measured tree, this park also features part of the Kings River, sculptor of the dramatic granite canyon that..."
+  },
+  {
+    "name": "Kobuk Valley",
+    "state": "Alaska67\u00b033\u2032N 159\u00b017\u2032W\ufeff / \ufeff67.55\u00b0N 159.28\u00b0W\ufeff / 67.55; -159.28\ufeff (Kobuk Valley)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Wetlands_along_the_Kobuk_River_%288029770162%29.jpg/250px-Wetlands_along_the_Kobuk_River_%288029770162%29.jpg",
+    "description": "Kobuk Valley protects 61 miles (98 km) of the Kobuk River and three regions of sand dunes. Created by glaciers, the Great Kobuk, Little Kobuk, and Hunt River Sand Dunes can reach 100 feet (30 m) high ..."
+  },
+  {
+    "name": "Lake Clark",
+    "state": "Alaska60\u00b058\u2032N 153\u00b025\u2032W\ufeff / \ufeff60.97\u00b0N 153.42\u00b0W\ufeff / 60.97; -153.42\ufeff (Lake Clark)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Lake_Clark_National_Park.jpg/250px-Lake_Clark_National_Park.jpg",
+    "description": "The region around Lake Clark features four active volcanoes, including Mount Redoubt, as well as an abundance of rivers, glaciers, and waterfalls. Temperate rainforests, a tundra plateau, and three mo..."
+  },
+  {
+    "name": "Lassen Volcanic",
+    "state": "California40\u00b029\u2032N 121\u00b031\u2032W\ufeff / \ufeff40.49\u00b0N 121.51\u00b0W\ufeff / 40.49; -121.51\ufeff (Lassen Volcanic)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Lassen_Peak_and_Lake_Helen.jpg/250px-Lassen_Peak_and_Lake_Helen.jpg",
+    "description": "Lassen Peak, the largest lava dome volcano in the world, is joined by all three other types of volcanoes in this park: shield, cinder cone, and composite. Though Lassen itself last erupted in 1915, mo..."
+  },
+  {
+    "name": "Mammoth Cave",
+    "state": "Kentucky37\u00b011\u2032N 86\u00b006\u2032W\ufeff / \ufeff37.18\u00b0N 86.10\u00b0W\ufeff / 37.18; -86.10\ufeff (Mammoth Cave)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mammoth_Cave_National_Park_007.jpg/250px-Mammoth_Cave_National_Park_007.jpg",
+    "description": "With more than 400 miles (640 km) of passageways explored, Mammoth Cave is the world's longest known cave system. Subterranean wildlife includes eight bat species, Kentucky cave shrimp, Northern cavef..."
+  },
+  {
+    "name": "Mesa Verde",
+    "state": "Colorado37\u00b011\u2032N 108\u00b029\u2032W\ufeff / \ufeff37.18\u00b0N 108.49\u00b0W\ufeff / 37.18; -108.49\ufeff (Mesa Verde)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Mesa_Verde_National_Park_Cliff_Palace_2006_09_12.jpg/250px-Mesa_Verde_National_Park_Cliff_Palace_2006_09_12.jpg",
+    "description": "This area constitutes over 4,000 archaeological sites of the Ancestral Puebloan people, who lived here and elsewhere in the Four Corners region for at least 700 years. Cliff dwellings built in the 12t..."
+  },
+  {
+    "name": "Mount Rainier",
+    "state": "Washington46\u00b051\u2032N 121\u00b045\u2032W\ufeff / \ufeff46.85\u00b0N 121.75\u00b0W\ufeff / 46.85; -121.75\ufeff (Mount Rainier)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mount_Rainier_from_above_Myrtle_Falls_in_August.JPG/250px-Mount_Rainier_from_above_Myrtle_Falls_in_August.JPG",
+    "description": "Mount Rainier, an active stratovolcano, is the most prominent peak in the Cascades and is covered by 26 named glaciers including Carbon Glacier and Emmons Glacier, the longest and largest in the conti..."
+  },
+  {
+    "name": "New River Gorge",
+    "state": "West Virginia38\u00b004\u2032N 81\u00b005\u2032W\ufeff / \ufeff38.07\u00b0N 81.08\u00b0W\ufeff / 38.07; -81.08\ufeff (New River Gorge)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/New_River_Gorge_Bridge.jpg/250px-New_River_Gorge_Bridge.jpg",
+    "description": "The New River Gorge is the deepest river gorge east of the Mississippi River. The park primarily covers the lower gorge area around the New River Gorge Bridge, which features some of the country's bes..."
+  },
+  {
+    "name": "North Cascades",
+    "state": "Washington48\u00b042\u2032N 121\u00b012\u2032W\ufeff / \ufeff48.70\u00b0N 121.20\u00b0W\ufeff / 48.70; -121.20\ufeff (North Cascades)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cascade_Pass.jpg/250px-Cascade_Pass.jpg",
+    "description": "The highly glaciated mountains of the North Cascades Range exhibit a spectacular and complex geologic history. Between the river valleys and high peaks there are eight diverse life zones with 75 mamma..."
+  },
+  {
+    "name": "Olympic",
+    "state": "Washington47\u00b058\u2032N 123\u00b030\u2032W\ufeff / \ufeff47.97\u00b0N 123.50\u00b0W\ufeff / 47.97; -123.50\ufeff (Olympic)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cedar_Creek_Abbey_Island_Ruby_Beach.jpg/250px-Cedar_Creek_Abbey_Island_Ruby_Beach.jpg",
+    "description": "This park on the Olympic Peninsula includes a wide range of ecosystems from Pacific shoreline to temperate rainforests to the glaciated alpine peaks of the Olympic Mountains, the tallest of which is M..."
+  },
+  {
+    "name": "Petrified Forest",
+    "state": "Arizona35\u00b004\u2032N 109\u00b047\u2032W\ufeff / \ufeff35.07\u00b0N 109.78\u00b0W\ufeff / 35.07; -109.78\ufeff (Petrified Forest)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Jasper_Forest_at_Petrified_Forest_NP_in_AZ_12.jpg/250px-Jasper_Forest_at_Petrified_Forest_NP_in_AZ_12.jpg",
+    "description": "This portion of the Chinle Formation has a large concentration of 225-million-year-old petrified wood. The surrounding Painted Desert features eroded cliffs of red-hued volcanic rock called bentonite...."
+  },
+  {
+    "name": "Pinnacles",
+    "state": "California36\u00b029\u2032N 121\u00b010\u2032W\ufeff / \ufeff36.48\u00b0N 121.16\u00b0W\ufeff / 36.48; -121.16\ufeff (Pinnacles)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pinnacles_National_Park.jpg/250px-Pinnacles_National_Park.jpg",
+    "description": "Named for the eroded leftovers of a portion of an extinct volcano, the park's massive black and gold monoliths of andesite and rhyolite are a popular destination for rock climbers. Hikers have access ..."
+  },
+  {
+    "name": "Rocky Mountain",
+    "state": "Colorado40\u00b024\u2032N 105\u00b035\u2032W\ufeff / \ufeff40.40\u00b0N 105.58\u00b0W\ufeff / 40.40; -105.58\ufeff (Rocky Mountain)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Bierstadt_Lake%2C_Rocky_Mountain_National_Park%2C_USA.jpg/250px-Bierstadt_Lake%2C_Rocky_Mountain_National_Park%2C_USA.jpg",
+    "description": "Bisected north to south by the Continental Divide, this portion of the Rockies has ecosystems varying from over 150 riparian lakes to montane and subalpine forests to treeless alpine tundra. Wildlife ..."
+  },
+  {
+    "name": "Saguaro",
+    "state": "Arizona32\u00b015\u2032N 110\u00b030\u2032W\ufeff / \ufeff32.25\u00b0N 110.50\u00b0W\ufeff / 32.25; -110.50\ufeff (Saguaro)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Saguaronationalparl17102008.jpg/250px-Saguaronationalparl17102008.jpg",
+    "description": "Split into the separate Rincon Mountain and Tucson Mountain districts, this park is evidence that the dry Sonoran Desert is still home to a great variety of life spanning six biotic communities. Beyon..."
+  },
+  {
+    "name": "Sequoia",
+    "state": "California36\u00b026\u2032N 118\u00b041\u2032W\ufeff / \ufeff36.43\u00b0N 118.68\u00b0W\ufeff / 36.43; -118.68\ufeff (Sequoia)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sequoia_National_Park%2C_photo_by_Reeve_Bruner%2C_2016.jpg/250px-Sequoia_National_Park%2C_photo_by_Reeve_Bruner%2C_2016.jpg",
+    "description": "This park protects the Giant Forest, which boasts some of the world's largest trees, the General Sherman being the largest measured tree in the park. Other features include over 240 caves, a long segm..."
+  },
+  {
+    "name": "Shenandoah",
+    "state": "Virginia38\u00b032\u2032N 78\u00b021\u2032W\ufeff / \ufeff38.53\u00b0N 78.35\u00b0W\ufeff / 38.53; -78.35\ufeff (Shenandoah)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Early_Fall_at_Dark_Hollow_Falls_%2822028259442%29.jpg/250px-Early_Fall_at_Dark_Hollow_Falls_%2822028259442%29.jpg",
+    "description": "Shenandoah's Blue Ridge Mountains are covered by hardwood forests that teem with a wide variety of wildlife. The Skyline Drive and Appalachian Trail run the entire length of this narrow park, along wi..."
+  },
+  {
+    "name": "Theodore Roosevelt",
+    "state": "North Dakota46\u00b058\u2032N 103\u00b027\u2032W\ufeff / \ufeff46.97\u00b0N 103.45\u00b0W\ufeff / 46.97; -103.45\ufeff (Theodore Roosevelt)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/View_of_Theodore_Roosevelt_National_Park.jpg/250px-View_of_Theodore_Roosevelt_National_Park.jpg",
+    "description": "This region that enticed and influenced President Theodore Roosevelt consists of a park of three units in the northern badlands. Besides Roosevelt's historic cabin, there are numerous scenic drives an..."
+  },
+  {
+    "name": "Virgin Islands",
+    "state": "",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/St_John_Trunk_Bay_1.jpg/250px-St_John_Trunk_Bay_1.jpg",
+    "description": "This island park on Saint John preserves pristine beaches surrounded by mangrove forests, seagrass beds, and coral reefs. It also has Ta\u00edno archaeological sites and the ruins of sugar plantations from..."
+  },
+  {
+    "name": "Voyageurs",
+    "state": "Minnesota48\u00b030\u2032N 92\u00b053\u2032W\ufeff / \ufeff48.50\u00b0N 92.88\u00b0W\ufeff / 48.50; -92.88\ufeff (Voyageurs)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Voyageurs_National_Park.jpg/250px-Voyageurs_National_Park.jpg",
+    "description": "This park protecting four lakes near the Canada\u2013US border is a site for canoeing, kayaking, and fishing. The park also preserves a history populated by Ojibwe Native Americans, French fur traders call..."
+  },
+  {
+    "name": "White Sands",
+    "state": "New Mexico32\u00b047\u2032N 106\u00b010\u2032W\ufeff / \ufeff32.78\u00b0N 106.17\u00b0W\ufeff / 32.78; -106.17\ufeff (White Sands)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/White_Sands_New_Mexico_USA.jpg/250px-White_Sands_New_Mexico_USA.jpg",
+    "description": "Located in the mountain-ringed Tularosa Basin, White Sands consists of the southern part of a 275-square-mile (710 km2) field of white sand dunes composed of gypsum crystals\u2014the world's largest gypsum..."
+  },
+  {
+    "name": "Wind Cave",
+    "state": "South Dakota43\u00b034\u2032N 103\u00b029\u2032W\ufeff / \ufeff43.57\u00b0N 103.48\u00b0W\ufeff / 43.57; -103.48\ufeff (Wind Cave)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Skyway_Lake%2C_stalactites%2C_Wind_Cave.jpg/250px-Skyway_Lake%2C_stalactites%2C_Wind_Cave.jpg",
+    "description": "Wind Cave is distinctive for its calcite fin formations called boxwork, a unique formation rarely found elsewhere, and needle-like growths called frostwork. It is one of the longest caves in the world..."
+  },
+  {
+    "name": "Wrangell\u2013St.\u00a0Elias",
+    "state": "Alaska61\u00b000\u2032N 142\u00b000\u2032W\ufeff / \ufeff61.00\u00b0N 142.00\u00b0W\ufeff / 61.00; -142.00\ufeff (Wrangell \u2013 St. Elias)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Guyot_Hills%2C_Icy_Bay%2C_and_Mount_St._Elias_%2821601563492%29.jpg/250px-Guyot_Hills%2C_Icy_Bay%2C_and_Mount_St._Elias_%2821601563492%29.jpg",
+    "description": "The largest national park in the system protects the convergence of the Alaska, Chugach, Wrangell, and Saint Elias Ranges, which include many of the continent's tallest mountains and volcanoes, includ..."
+  },
+  {
+    "name": "Yellowstone",
+    "state": "Wyoming, Montana, Idaho44\u00b036\u2032N 110\u00b030\u2032W\ufeff / \ufeff44.60\u00b0N 110.50\u00b0W\ufeff / 44.60; -110.50\ufeff (Yellowstone)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Grand_Prismatic_Spring_2013.jpg/250px-Grand_Prismatic_Spring_2013.jpg",
+    "description": "Situated on the Yellowstone Caldera, the park has an expansive network of geothermal areas including boiling mud pots, vividly colored hot springs such as Grand Prismatic Spring, and regularly eruptin..."
+  },
+  {
+    "name": "Yosemite",
+    "state": "California37\u00b050\u2032N 119\u00b030\u2032W\ufeff / \ufeff37.83\u00b0N 119.50\u00b0W\ufeff / 37.83; -119.50\ufeff (Yosemite)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg/250px-Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg",
+    "description": "Yosemite features sheer granite cliffs, exceptionally tall waterfalls, and old-growth forests at a unique intersection of geology and hydrology. Half Dome and El Capitan rise from the park's centerpie..."
+  },
+  {
+    "name": "Zion",
+    "state": "Utah37\u00b018\u2032N 113\u00b003\u2032W\ufeff / \ufeff37.30\u00b0N 113.05\u00b0W\ufeff / 37.30; -113.05\ufeff (Zion)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Zion_angels_landing_view.jpg/250px-Zion_angels_landing_view.jpg",
+    "description": "Located at the junction of the Colorado Plateau, Great Basin, and Mojave Desert, this park contains sandstone features such as mesas, rock towers, and canyons, including the Virgin River Narrows. The ..."
+  }
+]
