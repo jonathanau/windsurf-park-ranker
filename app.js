@@ -89,43 +89,67 @@ class ELORatingSystem {
 // App State Management
 class ParkRankingApp {
     constructor() {
-        this.eloSystem = new ELORatingSystem();
-        this.parks = this.initializeParks();
-        this.votes = JSON.parse(localStorage.getItem('parkVotes')) || [];
+        this.apiBase = window.location.origin.includes('localhost') ? 'http://localhost:5001' : '';
+        this.parks = [];
+        this.votes = [];
         this.currentMatchup = null;
         
         this.initializeApp();
     }
 
-    initializeParks() {
-        const savedRatings = JSON.parse(localStorage.getItem('parkRatings')) || {};
-        
-        return nationalParks.map(park => ({
-            ...park,
-            rating: savedRatings[park.name] || this.eloSystem.INITIAL_RATING,
-            previousRating: savedRatings[park.name] || this.eloSystem.INITIAL_RATING,
-            votes: 0
-        }));
+    async loadParks() {
+        try {
+            const response = await fetch(`${this.apiBase}/api/parks`);
+            if (!response.ok) throw new Error('Failed to load parks');
+            this.parks = await response.json();
+        } catch (error) {
+            console.error('Error loading parks:', error);
+            // Fallback to static data if API fails
+            this.parks = nationalParks.map(park => ({
+                ...park,
+                id: Math.random(), // Temporary ID
+                rating: 1500,
+                previousRating: 1500,
+                votes: 0
+            }));
+        }
     }
 
-    saveData() {
-        const ratings = {};
-        this.parks.forEach(park => {
-            ratings[park.name] = park.rating;
-        });
-        localStorage.setItem('parkRatings', JSON.stringify(ratings));
-        localStorage.setItem('parkVotes', JSON.stringify(this.votes));
+    async loadRecentVotes() {
+        try {
+            const response = await fetch(`${this.apiBase}/api/votes/recent?limit=10`);
+            if (!response.ok) throw new Error('Failed to load votes');
+            this.votes = await response.json();
+        } catch (error) {
+            console.error('Error loading votes:', error);
+            this.votes = [];
+        }
     }
 
-    generateMatchup() {
-        // Select two random parks
-        const shuffled = [...this.parks].sort(() => 0.5 - Math.random());
-        this.currentMatchup = {
-            park1: shuffled[0],
-            park2: shuffled[1]
-        };
-        
-        this.displayMatchup();
+    async generateMatchup() {
+        try {
+            const response = await fetch(`${this.apiBase}/api/parks/random-pair`);
+            if (!response.ok) throw new Error('Failed to get random parks');
+            const parks = await response.json();
+            
+            this.currentMatchup = {
+                park1: parks[0],
+                park2: parks[1]
+            };
+            
+            this.displayMatchup();
+        } catch (error) {
+            console.error('Error generating matchup:', error);
+            // Fallback to local random selection
+            if (this.parks.length >= 2) {
+                const shuffled = [...this.parks].sort(() => 0.5 - Math.random());
+                this.currentMatchup = {
+                    park1: shuffled[0],
+                    park2: shuffled[1]
+                };
+                this.displayMatchup();
+            }
+        }
     }
 
     displayMatchup() {
@@ -160,7 +184,7 @@ class ParkRankingApp {
         element.classList.remove('selected');
     }
 
-    vote(winner, loser) {
+    async vote(winner, loser) {
         // Visual feedback
         document.getElementById('park1').classList.remove('selected');
         document.getElementById('park2').classList.remove('selected');
@@ -171,40 +195,45 @@ class ParkRankingApp {
             document.getElementById('park2').classList.add('selected');
         }
 
-        // Update ratings
-        const oldWinnerRating = winner.rating;
-        const oldLoserRating = loser.rating;
-        
-        const newRatings = this.eloSystem.calculateNewRatings(winner.rating, loser.rating);
-        
-        // Find and update the parks in the main array
-        const winnerPark = this.parks.find(p => p.name === winner.name);
-        const loserPark = this.parks.find(p => p.name === loser.name);
-        
-        winnerPark.previousRating = winnerPark.rating;
-        loserPark.previousRating = loserPark.rating;
-        winnerPark.rating = newRatings.winner;
-        loserPark.rating = newRatings.loser;
-        winnerPark.votes++;
-        loserPark.votes++;
+        try {
+            // Submit vote to API
+            const response = await fetch(`${this.apiBase}/api/vote`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    winner_id: winner.id,
+                    loser_id: loser.id
+                })
+            });
 
-        // Record the vote
-        this.votes.unshift({
-            winner: winner.name,
-            loser: loser.name,
-            timestamp: new Date().toISOString(),
-            winnerRatingChange: newRatings.winner - oldWinnerRating,
-            loserRatingChange: newRatings.loser - oldLoserRating
-        });
+            if (!response.ok) {
+                throw new Error('Failed to submit vote');
+            }
 
-        // Keep only last 50 votes
-        if (this.votes.length > 50) {
-            this.votes = this.votes.slice(0, 50);
+            const result = await response.json();
+            
+            // Update local parks data with new ratings
+            const winnerPark = this.parks.find(p => p.id === winner.id);
+            const loserPark = this.parks.find(p => p.id === loser.id);
+            
+            if (winnerPark && loserPark) {
+                Object.assign(winnerPark, result.winner);
+                Object.assign(loserPark, result.loser);
+            }
+
+            // Refresh data from server
+            await this.loadRecentVotes();
+            await this.updateRankings();
+            this.updateRecentVotes();
+
+        } catch (error) {
+            console.error('Error submitting vote:', error);
+            // Show error message to user
+            alert('Failed to submit vote. Please try again.');
+            return;
         }
-
-        this.saveData();
-        this.updateRankings();
-        this.updateRecentVotes();
 
         // Generate new matchup after a short delay
         setTimeout(() => {
@@ -212,37 +241,75 @@ class ParkRankingApp {
         }, 1500);
     }
 
-    updateRankings() {
-        const sortedParks = [...this.parks].sort((a, b) => b.rating - a.rating);
-        const rankingsList = document.getElementById('rankings-list');
-        
-        rankingsList.innerHTML = '';
-        
-        sortedParks.slice(0, 15).forEach((park, index) => {
-            const change = park.rating - park.previousRating;
-            const changeClass = change > 0 ? 'positive' : change < 0 ? 'negative' : 'neutral';
-            const changeSymbol = change > 0 ? '↑' : change < 0 ? '↓' : '—';
-            const changeText = change === 0 ? '0' : Math.abs(change);
+    async updateRankings() {
+        try {
+            const response = await fetch(`${this.apiBase}/api/rankings?limit=15`);
+            if (!response.ok) throw new Error('Failed to load rankings');
+            const sortedParks = await response.json();
             
-            const row = document.createElement('div');
-            row.className = 'ranking-row';
+            const rankingsList = document.getElementById('rankings-list');
+            rankingsList.innerHTML = '';
             
-            const parkImageHtml = park.image && park.image !== 'null' 
-                ? `<img src="${park.image}" alt="${park.name}" class="park-emoji" style="width: 24px; height: 24px; border-radius: 4px; object-fit: cover;">` 
-                : `<span class="park-emoji">${this.getParkEmoji(park.name)}</span>`;
-            
-            row.innerHTML = `
-                <span class="rank-number">${index + 1}</span>
-                <div class="park-info">
-                    ${parkImageHtml}
-                    <span class="park-title">${park.name}</span>
-                </div>
-                <span class="score">${park.rating}</span>
-                <span class="change ${changeClass}">${changeSymbol}${changeText}</span>
-            `;
-            
-            rankingsList.appendChild(row);
-        });
+            sortedParks.forEach((park, index) => {
+                const change = park.rating - park.previous_rating;
+                const changeClass = change > 0 ? 'positive' : change < 0 ? 'negative' : 'neutral';
+                const changeSymbol = change > 0 ? '↑' : change < 0 ? '↓' : '—';
+                const changeText = change === 0 ? '0' : Math.abs(change);
+                
+                const row = document.createElement('div');
+                row.className = 'ranking-row';
+                
+                const parkImageHtml = park.image && park.image !== 'null' 
+                    ? `<img src="${park.image}" alt="${park.name}" class="park-emoji" style="width: 24px; height: 24px; border-radius: 4px; object-fit: cover;">` 
+                    : `<span class="park-emoji">${this.getParkEmoji(park.name)}</span>`;
+                
+                row.innerHTML = `
+                    <span class="rank-number">${index + 1}</span>
+                    <div class="park-info">
+                        ${parkImageHtml}
+                        <span class="park-title">${park.name}</span>
+                    </div>
+                    <span class="score">${park.rating}</span>
+                    <span class="change ${changeClass}">${changeSymbol}${changeText}</span>
+                `;
+                
+                rankingsList.appendChild(row);
+            });
+        } catch (error) {
+            console.error('Error updating rankings:', error);
+            // Fallback to local data if available
+            if (this.parks.length > 0) {
+                const sortedParks = [...this.parks].sort((a, b) => b.rating - a.rating);
+                const rankingsList = document.getElementById('rankings-list');
+                rankingsList.innerHTML = '';
+                
+                sortedParks.slice(0, 15).forEach((park, index) => {
+                    const change = park.rating - (park.previousRating || park.previous_rating || park.rating);
+                    const changeClass = change > 0 ? 'positive' : change < 0 ? 'negative' : 'neutral';
+                    const changeSymbol = change > 0 ? '↑' : change < 0 ? '↓' : '—';
+                    const changeText = change === 0 ? '0' : Math.abs(change);
+                    
+                    const row = document.createElement('div');
+                    row.className = 'ranking-row';
+                    
+                    const parkImageHtml = park.image && park.image !== 'null' 
+                        ? `<img src="${park.image}" alt="${park.name}" class="park-emoji" style="width: 24px; height: 24px; border-radius: 4px; object-fit: cover;">` 
+                        : `<span class="park-emoji">${this.getParkEmoji(park.name)}</span>`;
+                    
+                    row.innerHTML = `
+                        <span class="rank-number">${index + 1}</span>
+                        <div class="park-info">
+                            ${parkImageHtml}
+                            <span class="park-title">${park.name}</span>
+                        </div>
+                        <span class="score">${park.rating}</span>
+                        <span class="change ${changeClass}">${changeSymbol}${changeText}</span>
+                    `;
+                    
+                    rankingsList.appendChild(row);
+                });
+            }
+        }
     }
 
     updateRecentVotes() {
@@ -251,16 +318,24 @@ class ParkRankingApp {
         
         this.votes.slice(0, 10).forEach(vote => {
             const timeAgo = this.getTimeAgo(new Date(vote.timestamp));
-            const winnerPark = this.parks.find(p => p.name === vote.winner);
-            const loserPark = this.parks.find(p => p.name === vote.loser);
             
             const voteItem = document.createElement('div');
             voteItem.className = 'vote-item';
+            
+            // Use winner/loser images if available, otherwise use emojis
+            const winnerImage = vote.winner_image && vote.winner_image !== 'null' 
+                ? `<img src="${vote.winner_image}" alt="${vote.winner}" style="width: 16px; height: 16px; border-radius: 2px; object-fit: cover;">` 
+                : `<span>${this.getParkEmoji(vote.winner)}</span>`;
+                
+            const loserImage = vote.loser_image && vote.loser_image !== 'null' 
+                ? `<img src="${vote.loser_image}" alt="${vote.loser}" style="width: 16px; height: 16px; border-radius: 2px; object-fit: cover;">` 
+                : `<span>${this.getParkEmoji(vote.loser)}</span>`;
+            
             voteItem.innerHTML = `
-                <span>${winnerPark.icon}</span>
+                ${winnerImage}
                 <span class="vote-winner">${vote.winner}</span>
                 <span>beat</span>
-                <span>${loserPark.icon}</span>
+                ${loserImage}
                 <span class="vote-loser">${vote.loser}</span>
                 <span class="vote-time">${timeAgo}</span>
             `;
@@ -309,10 +384,27 @@ class ParkRankingApp {
         return `${diffDays}d`;
     }
 
-    initializeApp() {
-        this.generateMatchup();
-        this.updateRankings();
-        this.updateRecentVotes();
+    async initializeApp() {
+        // Show loading state
+        document.querySelector('.voting-section h2').textContent = 'Loading parks...';
+        
+        try {
+            // Load all data from API
+            await this.loadParks();
+            await this.loadRecentVotes();
+            
+            // Initialize UI
+            await this.generateMatchup();
+            await this.updateRankings();
+            this.updateRecentVotes();
+            
+            // Update header
+            document.querySelector('.voting-section h2').textContent = 'Which park would you rather visit?';
+            
+        } catch (error) {
+            console.error('Error initializing app:', error);
+            document.querySelector('.voting-section h2').textContent = 'Error loading data. Please refresh the page.';
+        }
     }
 }
 
